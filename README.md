@@ -1,4 +1,6 @@
-```Zadanie polega na wykonaniu kilku implementacji kolejki nie-blokującej z wieloma czytelnikami i pisarzami: SimpleQueue, RingsQueue, LLQueue, BLQueue. Dwie implementacje polegają na użyciu zwykłych mutexów, a dwie kolejne na użyciu atomowych operacji, w tym kluczowego compare_exchange.
+```
+
+Zadanie polega na wykonaniu kilku implementacji kolejki nie-blokującej z wieloma czytelnikami i pisarzami: SimpleQueue, RingsQueue, LLQueue, BLQueue. Dwie implementacje polegają na użyciu zwykłych mutexów, a dwie kolejne na użyciu atomowych operacji, w tym kluczowego compare_exchange.
 
 W każdym przypadku implementacja składa się ze struktury <kolejka> oraz metod:
 
